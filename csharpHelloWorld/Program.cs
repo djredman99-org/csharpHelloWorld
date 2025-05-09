@@ -16,7 +16,7 @@ namespace csharpHelloWorld
         }
 
         // This is a simple method to demonstrate a function in C#
-        static int GreetUser(string name)
+        static string GreetUser(string name)
         {
             Console.WriteLine($"Hello, {name}!");
             return "Hello";
